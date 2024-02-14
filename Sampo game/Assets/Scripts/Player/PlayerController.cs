@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
     private Vector2 moveInput;
 
     void Awake(){
-       conterols = new Master();
+       controls = new Master();
        body = GetComponent<Rigidbody2D>();
     }
 
